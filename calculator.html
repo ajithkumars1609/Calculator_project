@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/calculator.css" />
+  </head>
+  <body>
+    <div class="calculator-container">
+      <h2 class="head-content">casio</h2>
+      <div class="display-container js-calcultor-display-box"></div>
+      <div class="calculator-row">
+        <input
+          type="button"
+          value="7"
+          class="input-button"
+          onclick="updateCalcualtor('7');"
+        />
+        <input
+          type="button"
+          value="8"
+          class="input-button"
+          onclick="updateCalcualtor('8');"
+        />
+        <input
+          type="button"
+          value="9"
+          class="input-button"
+          onclick="updateCalcualtor('9');"
+        />
+        <input
+          type="button"
+          value="/"
+          class="input-button"
+          onclick="updateCalcualtor('/');"
+        />
+      </div>
+      <div class="calculator-row">
+        <input
+          type="button"
+          value="4"
+          class="input-button"
+          onclick="updateCalcualtor('4');"
+        />
+        <input
+          type="button"
+          value="5"
+          class="input-button"
+          onclick="updateCalcualtor('5');"
+        />
+        <input
+          type="button"
+          value="6"
+          class="input-button"
+          onclick="updateCalcualtor('6');"
+        />
+        <input
+          type="button"
+          value="*"
+          class="input-button"
+          onclick="updateCalcualtor('*');"
+        />
+      </div>
+      <div class="calculator-row">
+        <input
+          type="button"
+          value="1"
+          class="input-button"
+          onclick="updateCalcualtor('1');"
+        />
+        <input
+          type="button"
+          value="2"
+          class="input-button"
+          onclick="updateCalcualtor('2');"
+        />
+        <input
+          type="button"
+          value="3"
+          class="input-button"
+          onclick="updateCalcualtor('3');"
+        />
+        <input
+          type="button"
+          value="-"
+          class="input-button"
+          onclick="updateCalcualtor('-');"
+        />
+      </div>
+      <div class="calculator-row">
+        <input
+          type="button"
+          value="0"
+          class="input-button"
+          onclick="updateCalcualtor(0);"
+        />
+        <input
+          type="button"
+          value="."
+          class="input-button"
+          onclick="updateCalcualtor('.');"
+        />
+        <input
+          type="button"
+          value="="
+          class="input-button"
+          onclick="calculatorSum();"
+        />
+        <input
+          type="button"
+          value="+"
+          class="input-button"
+          onclick="updateCalcualtor('+');"
+        />
+      </div>
+      <div class="calculator-row">
+        <input
+          type="button"
+          value="Clear"
+          class="input-button clear-button js-clear-button"
+        />
+      </div>
+    </div>
+    <script src="scripts/calculator.js"></script>
+  </body>
+</html>
